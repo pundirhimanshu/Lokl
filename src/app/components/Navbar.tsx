@@ -14,7 +14,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center pl-2">
           <Image 
-            src="/Logo.png" 
+            src="/logo.png" 
             alt="Lokl Logo" 
             width={120} 
             height={32} 

@@ -221,7 +221,7 @@ export default function Dashboard() {
           {/* White Logo */}
           <div className="mb-12">
             <Image 
-              src="/white Logo.png" 
+              src="/white-logo.png" 
               alt="Lokl Logo" 
               width={120} 
               height={40} 
@@ -261,7 +261,7 @@ export default function Dashboard() {
       {/* Mobile Header (replaces Sidebar on small screens) */}
       <div className="md:hidden flex items-center justify-between p-4 bg-[#1F1101]">
         <Image 
-          src="/white Logo.png" 
+          src="/white-logo.png" 
           alt="Lokl Logo" 
           width={100} 
           height={32} 

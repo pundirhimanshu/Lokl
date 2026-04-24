@@ -14,7 +14,7 @@ export default function LoginPage() {
           <div className="mb-8 lg:mb-12 -ml-2">
              <Link href="/">
                <img 
-                src="/Logo.png" 
+                src="/logo.png" 
                 alt="Lokl Logo" 
                 className="w-48 md:w-64 lg:w-80 h-auto object-contain"
               />
