@@ -4,6 +4,8 @@ import { getProductById } from "@/app/actions/dashboard";
 import { notFound } from "next/navigation";
 import { ArrowLeft, MessageCircle, Phone, Share2, ShieldCheck, Truck } from "lucide-react";
 
+export const dynamic = 'force-dynamic';
+
 export default async function ProductDetailPage({ params }: { params: { slug: string, productId: string } }) {
   const { productId, slug } = await params;
   const { product, success } = await getProductById(productId);

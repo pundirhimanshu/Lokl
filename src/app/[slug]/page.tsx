@@ -5,6 +5,8 @@ import { notFound } from "next/navigation";
 import { headers } from "next/headers";
 import { Phone, MapPin, Share2, ShoppingBag, MessageCircle, ArrowRight } from "lucide-react";
 
+export const dynamic = 'force-dynamic';
+
 export default async function StorePage({ 
   params, 
   searchParams 
