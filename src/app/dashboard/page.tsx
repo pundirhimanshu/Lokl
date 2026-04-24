@@ -311,7 +311,7 @@ export default function Dashboard() {
                       target="_blank" 
                       className="truncate max-w-[200px] sm:max-w-md lg:max-w-none hover:text-[#1F1101] underline decoration-dotted"
                     >
-                      {storeData?.url ? `localhost:3000/${storeData.url}` : "Setting up your link..."}
+                      {storeData?.url ? `${typeof window !== 'undefined' ? window.location.host : 'localhost:3000'}/${storeData.url}` : "Setting up your link..."}
                     </a>
                     <button 
                       onClick={handleCopy}
